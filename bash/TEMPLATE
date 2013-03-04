@@ -1,0 +1,7 @@
+#! /bin/bash
+# Author: Kenneth Lui <hkkenneth@gmail.com>
+# Last Updated on: 
+## Usage: ~/code/bash/_______.sh
+
+set -o verbose
+

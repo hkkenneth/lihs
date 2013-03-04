@@ -1,0 +1,1 @@
+while read i ; do bname=`basename $i .xml` ; index=`echo $bname | cut -c12-` ; python ~/code/python/010_Blastp_XML_To_List.py $i $index ; cat "$index".py010.out >> all.py010.out ; /bin/rm "$index".py010.out; done < /home/klui/x200/03Analysis/FER/17TrinityOct/All/11FindORF2/00XML_to_list/list_of_xml
